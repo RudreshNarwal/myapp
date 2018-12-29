@@ -5,9 +5,10 @@ phases:
       - echo Installing source NPM dependencies...
       - npm install
       - echo Finished installing
+      - npm test
+
   build:
     commands:
-      - npm test
       - echo Build started on `date`
       - npm run build
   post_build:
