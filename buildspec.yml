@@ -5,7 +5,6 @@ phases:
       - echo Installing source NPM dependencies...
       - npm install
       - echo Finished installing
-      - npm test
 
   build:
     commands:
