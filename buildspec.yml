@@ -7,7 +7,7 @@ phases:
       - echo Finished installing
   build:
     commands:
-      - npm run test
+      - npm test
       - echo Build started on `date`
       - npm run build
   post_build:
