@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Hello React.js the gerat
+            Hello React.js the ge
           </a>
         </header>
       </div>
