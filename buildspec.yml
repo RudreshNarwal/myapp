@@ -5,8 +5,12 @@ phases:
       - echo Installing source NPM dependencies...
       - npm install
       - echo Finished installing
+      - npm run test
 
   build:
     commands:
       - echo Build started on `date`
       - npm test
+  artifacts:
+  files:
+    - '**/*'
