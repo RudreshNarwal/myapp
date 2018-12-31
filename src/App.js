@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Hello React.js the ge
+            Hello React.js  with material ui
           </a>
         </header>
       </div>
