@@ -8,4 +8,16 @@ before_install:
 script:
   - docker run rudresh/docker-react npm run test -- --coverage
 
+deploy:
+   provider: elasticbeanstalk
+   region: "ap-south-1"
+   app: "docker-react"
+   env: "DockerReact-env"
+   bucket_name: "elasticbeanstalk-ap-south-1-617368413249"
+   bucket_path: "docker-react"
+   on: 
+    branch: master
+   access_key_id: AKIAI2QMCUJ6RSYXW63A
+   secret_access_key:
+    secure: "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" 
 
